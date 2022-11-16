@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <nav class="navbar navbar-expand-lg  back4 px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+      <div class="d-flex flex-column align-items-center flex-row">
+        <p class="hello fs-7 small p-0 m-0">Another <br> Man's <br> Treasure</p>
       </div>
     </router-link>
     <button
@@ -19,12 +19,12 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About' }" class="btn text-dark lighten-30 selectable text-uppercase">
             About
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About' }" class="btn text-dark lighten-30 selectable text-uppercase">
             About
           </router-link>
         </li>
@@ -64,6 +64,30 @@ a:hover {
   nav {
     height: 64px;
   }
+}
+
+.small {
+  font-size: small;
+}
+.hello {
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.back1 {
+  background-color: rgb(85, 91, 110);
+}
+.back2 {
+  background-color: rgb(137, 176, 174);
+}
+.back3 {
+  background-color: rgb(190, 227, 219);
+}
+.back4 {
+  background-color: rgb(250, 249, 249);
+}
+.back5 {
+  background-color: rgb(255, 214, 186);
 }
 
 </style>
