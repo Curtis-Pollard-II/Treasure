@@ -24,10 +24,16 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-dark lighten-30 selectable text-uppercase">
-            About
+          <router-link :to="{ name: 'Episodes' }" class="btn text-dark lighten-30 selectable text-uppercase">
+            Episodes
           </router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Guests' }" class="btn text-dark lighten-30 selectable text-uppercase">
+            Guests
+          </router-link>
+        </li>
+
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <Login />

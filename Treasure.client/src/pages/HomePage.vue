@@ -1,6 +1,8 @@
 <template>
-  <div class="fs-2 hello back1">Another Man's Treasure</div>
-
+  <div class=" row back1">
+    <div class="offset-2 col-6 font-weight-bold fs-1 hello ">Another <br> Man's <br> Treasure
+    </div>
+  </div>
 </template>
 
 <script>
