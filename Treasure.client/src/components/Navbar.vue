@@ -25,7 +25,7 @@
         </li>
         <li>
           <router-link :to="{ name: 'Episodes' }" class="btn text-dark lighten-30 selectable text-uppercase">
-            Episodes
+            Episode
           </router-link>
         </li>
         <li>
