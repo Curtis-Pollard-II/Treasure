@@ -1,7 +1,14 @@
 <template>
   <div class=" row back1">
-    <div class="offset-2 col-6 font-weight-bold fs-1 hello ">Another <br> Man's <br> Treasure
+    <div class="offset-2 col-6 font-weight-bold fs-1 hello ">Another <br> Man's <br> Treasure</div>
+    <div class="p-3 col-4 text-center text-light "><span class="fs-2">⬆️</span>Help us decide  <br> what content we do next
+      <div class="p-3">
+        <img class="rounded-circle m-2 profile img-fluid" src="https://media-exp1.licdn.com/dms/image/C5603AQH0A7CqLa9eZg/profile-displayphoto-shrink_200_200/0/1660330660476?e=1675296000&v=beta&t=Ibt-G2F0OG5KCEhF8XacS2OlJWA89Cr1VjhfTHKexWk" alt="">
+        <img class="rounded-circle m-2 profile img-fluid" src="https://media-exp1.licdn.com/dms/image/C4E03AQHSR_xKSLKnEQ/profile-displayphoto-shrink_200_200/0/1516359104134?e=1675296000&v=beta&t=-NuOOescrq_uh3WUobTyHWreOTIx94jFPgsz5Ey38I8" alt="">
+
+      </div>
     </div>
+
   </div>
 </template>
 
@@ -19,6 +26,10 @@ export default {
 .hello {
   font-family: 'Fredoka One', cursive;
   font-family: 'Major Mono Display', monospace;
+}
+
+.profile {
+  max-width: 55px;
 }
 
 .back1 {
